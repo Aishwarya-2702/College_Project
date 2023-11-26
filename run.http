@@ -1,0 +1,20 @@
+//college project
+
+###
+GET http://localhost:1234/econtent/list
+
+###
+
+POST http://localhost:1234/econtent/newrecord
+Content-Type: application/json
+
+{
+    
+    "Name_of_the_faculty":"anand",
+    "Name_of_the_Module_Developed":"ak",
+    "Module_of_platform":"hai",
+    "Date_of_launching_e_content":"986",
+    "Link_to_the_module_developed":"http"
+}
+
+   
